@@ -1,0 +1,90 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    background-image: url("http://dash.ga.co/assets/anna-bg.png");
+  }
+  header{
+    background: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-2/pattern.jpeg");
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-size:cover;
+    height:100%;
+    width: 100%;
+    position: relative;
+  }
+  
+  h1,.info {
+    color:wheat;
+    text-align:center;
+    font-family: 'Londrina Shadow', cursive;
+  }
+  .main{
+    background:rgba(0,0,0,0.5);
+    padding: 10px;
+    text-align: center;
+  }
+  
+  li {
+    display: inline;
+    padding: 0px 10px 0px 10px;
+  }
+  
+  a {
+    color:whitesmoke;
+    text-align: center;
+    float: inline-end;
+  }
+  p{
+    font-family: 'Londrina Shadow', cursive;
+    margin:0 auto;
+    font-size: medium;
+    
+  }
+  article{
+    max-width: 500px;
+    padding: 20px;
+    margin: 0 auto;
+    color:white;
+  }
+  .project1,.project2,.project3{
+    font-weight:bold;
+    display:inline;
+    
+  }
+   @media (max-width: 500px) {
+    h1 {
+      font-size: 50px;
+      margin-top: 20px;
+      line-height: 40px;
+    }
+    li {
+      padding: 10px;
+      display: block;
+      font-size:45px;
+    }
+  }
+  /*
+  header {
+    padding: 10px 16px;
+    background: #555;
+    color: #f1f1f1;
+  }
+  
+  /* Page content */
+  /*.content {
+    padding: 16px;
+  }
+  
+  /* The sticky class is added to the header with JS when it reaches its scroll position */
+  /*.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+  }
+  
+  /* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+  /*.sticky + .content {
+    padding-top: 102px;
+  }
+
+
+
+
